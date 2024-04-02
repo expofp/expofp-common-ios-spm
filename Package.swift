@@ -10,11 +10,18 @@ let package = Package(
     products: [
         .library(
             name: "ExpoFpCommon",
-            targets: ["ExpoFpCommon"]),
+            targets: ["ExpoFpCommonTarget"]),
     ],
     dependencies: [
     ],
     targets: [
+ 	.target(name: "ExpoFpCommonTarget",
+                dependencies: [
+                    .target(name: "ExpoFpCommon")
+                ],
+                path: "ExpoFpCommonTarget",
+                resources: [.copy("PrivacyInfo.xcprivacy")]
+        ),
         .binaryTarget(name: "ExpoFpCommon",
                       path: "ExpoFpCommon.xcframework"
         ),
