@@ -29,7 +29,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "LocationProvider",
-                "printedName": "ExpoFpCommon.LocationProvider",
+                "printedName": "any ExpoFpCommon.LocationProvider",
                 "usr": "s:12ExpoFpCommon16LocationProviderP"
               }
             ],
@@ -96,12 +96,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "ExpoFpCommon.LocationProvider?",
+                "printedName": "(any ExpoFpCommon.LocationProvider)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "LocationProvider",
-                    "printedName": "ExpoFpCommon.LocationProvider",
+                    "printedName": "any ExpoFpCommon.LocationProvider",
                     "usr": "s:12ExpoFpCommon16LocationProviderP"
                   }
                 ],
@@ -486,6 +486,51 @@
           },
           {
             "kind": "Var",
+            "name": "zValueIsDigit",
+            "printedName": "zValueIsDigit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ExpoFpCommon8LocationV13zValueIsDigitSbvp",
+            "mangledName": "$s12ExpoFpCommon8LocationV13zValueIsDigitSbvp",
+            "moduleName": "ExpoFpCommon",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ExpoFpCommon8LocationV13zValueIsDigitSbvg",
+                "mangledName": "$s12ExpoFpCommon8LocationV13zValueIsDigitSbvg",
+                "moduleName": "ExpoFpCommon",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "angle",
             "printedName": "angle",
             "children": [
@@ -718,7 +763,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(x:y:z:angle:)",
+            "printedName": "init(x:y:z:zValueIsDigit:angle:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -755,6 +800,13 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Optional",
                 "printedName": "Swift.Double?",
                 "children": [
@@ -770,8 +822,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12ExpoFpCommon8LocationV1x1y1z5angleACSd_SdSSSgSdSgtcfc",
-            "mangledName": "$s12ExpoFpCommon8LocationV1x1y1z5angleACSd_SdSSSgSdSgtcfc",
+            "usr": "s:12ExpoFpCommon8LocationV1x1y1z13zValueIsDigit5angleACSd_SdSSSgSbSdSgtcfc",
+            "mangledName": "$s12ExpoFpCommon8LocationV1x1y1z13zValueIsDigit5angleACSd_SdSSSgSbSdSgtcfc",
             "moduleName": "ExpoFpCommon",
             "declAttributes": [
               "AccessControl"
@@ -781,7 +833,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(x:y:z:angle:latitude:longitude:)",
+            "printedName": "init(x:y:z:zValueIsDigit:angle:latitude:longitude:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -836,6 +888,13 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Optional",
                 "printedName": "Swift.Double?",
                 "children": [
@@ -881,8 +940,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12ExpoFpCommon8LocationV1x1y1z5angle8latitude9longitudeACSdSg_AJSSSgA3Jtcfc",
-            "mangledName": "$s12ExpoFpCommon8LocationV1x1y1z5angle8latitude9longitudeACSdSg_AJSSSgA3Jtcfc",
+            "usr": "s:12ExpoFpCommon8LocationV1x1y1z13zValueIsDigit5angle8latitude9longitudeACSdSg_AKSSSgSbA3Ktcfc",
+            "mangledName": "$s12ExpoFpCommon8LocationV1x1y1z13zValueIsDigit5angle8latitude9longitudeACSdSg_AKSSSgSbA3Ktcfc",
             "moduleName": "ExpoFpCommon",
             "declAttributes": [
               "AccessControl"
@@ -973,12 +1032,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "ExpoFpCommon.LocationProviderDelegate?",
+                "printedName": "(any ExpoFpCommon.LocationProviderDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "LocationProviderDelegate",
-                    "printedName": "ExpoFpCommon.LocationProviderDelegate",
+                    "printedName": "any ExpoFpCommon.LocationProviderDelegate",
                     "usr": "s:12ExpoFpCommon24LocationProviderDelegateP"
                   }
                 ],
@@ -1002,12 +1061,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "ExpoFpCommon.LocationProviderDelegate?",
+                    "printedName": "(any ExpoFpCommon.LocationProviderDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "LocationProviderDelegate",
-                        "printedName": "ExpoFpCommon.LocationProviderDelegate",
+                        "printedName": "any ExpoFpCommon.LocationProviderDelegate",
                         "usr": "s:12ExpoFpCommon24LocationProviderDelegateP"
                       }
                     ],
@@ -1037,12 +1096,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "ExpoFpCommon.LocationProviderDelegate?",
+                    "printedName": "(any ExpoFpCommon.LocationProviderDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "LocationProviderDelegate",
-                        "printedName": "ExpoFpCommon.LocationProviderDelegate",
+                        "printedName": "any ExpoFpCommon.LocationProviderDelegate",
                         "usr": "s:12ExpoFpCommon24LocationProviderDelegateP"
                       }
                     ],
@@ -1105,23 +1164,16 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vladimir\/Xcode projects\/expofp-common-ios-src\/ExpoFpCommon\/GlobalLocationProvider.swift",
+      "filePath": "\/Users\/vladimir\/Xcode projects\/expofp-common-ios-src\/ExpoFpCommon\/Location.swift",
       "kind": "BooleanLiteral",
-      "offset": 528,
-      "length": 4,
-      "value": "true"
+      "offset": 787,
+      "length": 5,
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/vladimir\/Xcode projects\/expofp-common-ios-src\/ExpoFpCommon\/GlobalLocationProvider.swift",
+      "filePath": "\/Users\/vladimir\/Xcode projects\/expofp-common-ios-src\/ExpoFpCommon\/Location.swift",
       "kind": "BooleanLiteral",
-      "offset": 570,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vladimir\/Xcode projects\/expofp-common-ios-src\/ExpoFpCommon\/GlobalLocationProvider.swift",
-      "kind": "BooleanLiteral",
-      "offset": 748,
+      "offset": 1104,
       "length": 5,
       "value": "false"
     }
