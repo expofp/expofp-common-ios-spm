@@ -284,20 +284,9 @@
         "usr": "s:12ExpoFpCommon24LocationProviderDelegateP",
         "mangledName": "$s12ExpoFpCommon24LocationProviderDelegateP",
         "moduleName": "ExpoFpCommon",
-        "genericSig": "<τ_0_0 : Swift.Equatable>",
-        "sugared_genericSig": "<Self : Swift.Equatable>",
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          }
         ]
       },
       {
@@ -1031,13 +1020,13 @@
           },
           {
             "kind": "Var",
-            "name": "delegates",
-            "printedName": "delegates",
+            "name": "delegate",
+            "printedName": "delegate",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[any ExpoFpCommon.LocationProviderDelegate]",
+                "name": "Optional",
+                "printedName": "(any ExpoFpCommon.LocationProviderDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1046,12 +1035,12 @@
                     "usr": "s:12ExpoFpCommon24LocationProviderDelegateP"
                   }
                 ],
-                "usr": "s:Sa"
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:12ExpoFpCommon16LocationProviderP9delegatesSayAA0dE8Delegate_pGvp",
-            "mangledName": "$s12ExpoFpCommon16LocationProviderP9delegatesSayAA0dE8Delegate_pGvp",
+            "usr": "s:12ExpoFpCommon16LocationProviderP8delegateAA0dE8Delegate_pSgvp",
+            "mangledName": "$s12ExpoFpCommon16LocationProviderP8delegateAA0dE8Delegate_pSgvp",
             "moduleName": "ExpoFpCommon",
             "protocolReq": true,
             "declAttributes": [
@@ -1065,8 +1054,8 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[any ExpoFpCommon.LocationProviderDelegate]",
+                    "name": "Optional",
+                    "printedName": "(any ExpoFpCommon.LocationProviderDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1075,12 +1064,12 @@
                         "usr": "s:12ExpoFpCommon24LocationProviderDelegateP"
                       }
                     ],
-                    "usr": "s:Sa"
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12ExpoFpCommon16LocationProviderP9delegatesSayAA0dE8Delegate_pGvg",
-                "mangledName": "$s12ExpoFpCommon16LocationProviderP9delegatesSayAA0dE8Delegate_pGvg",
+                "usr": "s:12ExpoFpCommon16LocationProviderP8delegateAA0dE8Delegate_pSgvg",
+                "mangledName": "$s12ExpoFpCommon16LocationProviderP8delegateAA0dE8Delegate_pSgvg",
                 "moduleName": "ExpoFpCommon",
                 "genericSig": "<τ_0_0 where τ_0_0 : ExpoFpCommon.LocationProvider>",
                 "sugared_genericSig": "<Self where Self : ExpoFpCommon.LocationProvider>",
@@ -1100,8 +1089,8 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[any ExpoFpCommon.LocationProviderDelegate]",
+                    "name": "Optional",
+                    "printedName": "(any ExpoFpCommon.LocationProviderDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1110,12 +1099,12 @@
                         "usr": "s:12ExpoFpCommon24LocationProviderDelegateP"
                       }
                     ],
-                    "usr": "s:Sa"
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12ExpoFpCommon16LocationProviderP9delegatesSayAA0dE8Delegate_pGvs",
-                "mangledName": "$s12ExpoFpCommon16LocationProviderP9delegatesSayAA0dE8Delegate_pGvs",
+                "usr": "s:12ExpoFpCommon16LocationProviderP8delegateAA0dE8Delegate_pSgvs",
+                "mangledName": "$s12ExpoFpCommon16LocationProviderP8delegateAA0dE8Delegate_pSgvs",
                 "moduleName": "ExpoFpCommon",
                 "genericSig": "<τ_0_0 where τ_0_0 : ExpoFpCommon.LocationProvider>",
                 "sugared_genericSig": "<Self where Self : ExpoFpCommon.LocationProvider>",
@@ -1135,8 +1124,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12ExpoFpCommon16LocationProviderP9delegatesSayAA0dE8Delegate_pGvM",
-                "mangledName": "$s12ExpoFpCommon16LocationProviderP9delegatesSayAA0dE8Delegate_pGvM",
+                "usr": "s:12ExpoFpCommon16LocationProviderP8delegateAA0dE8Delegate_pSgvM",
+                "mangledName": "$s12ExpoFpCommon16LocationProviderP8delegateAA0dE8Delegate_pSgvM",
                 "moduleName": "ExpoFpCommon",
                 "genericSig": "<τ_0_0 where τ_0_0 : ExpoFpCommon.LocationProvider>",
                 "sugared_genericSig": "<Self where Self : ExpoFpCommon.LocationProvider>",
