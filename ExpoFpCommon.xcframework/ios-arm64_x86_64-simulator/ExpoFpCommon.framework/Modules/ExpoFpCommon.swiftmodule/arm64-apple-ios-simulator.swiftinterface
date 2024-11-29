@@ -13,7 +13,7 @@ import _SwiftConcurrencyShims
   public static func getLocationProvider() -> (any ExpoFpCommon.LocationProvider)?
   @objc deinit
 }
-public protocol LocationProviderDelegate {
+public protocol LocationProviderDelegate : Swift.Equatable {
   func didUpdateLocation(location: ExpoFpCommon.Location)
   func didStartSuccess()
   func didStartFailure(reason: Swift.String)
@@ -33,7 +33,7 @@ public struct Location {
   public init(x: Swift.Double? = nil, y: Swift.Double? = nil, z: Swift.String? = nil, zValueIsDigit: Swift.Bool = false, angle: Swift.Double? = nil, latitude: Swift.Double? = nil, longitude: Swift.Double? = nil)
 }
 public protocol LocationProvider {
-  func start(_ inBackgound: Swift.Bool)
+  func start()
   func stop()
-  var delegate: (any ExpoFpCommon.LocationProviderDelegate)? { get set }
+  var delegates: [any ExpoFpCommon.LocationProviderDelegate] { get set }
 }
